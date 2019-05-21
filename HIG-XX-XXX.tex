@@ -1,0 +1,97 @@
+
+\RCS$Revision$
+\RCS$HeadURL$
+\RCS$Id$
+
+\newlength\cmsFigWidth
+\newlength\cmsTabSkip\setlength{\cmsTabSkip}{1ex}
+\ifthenelse{\boolean{cms@external}}{\setlength\cmsFigWidth{0.85\columnwidth}}{\setlength\cmsFigWidth{0.4\textwidth}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top\xspace}}{\providecommand{\cmsLeft}{left\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom\xspace}}{\providecommand{\cmsRight}{right\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\NA}{\ensuremath{\cdots}\xspace}}{\providecommand{\NA}{\ensuremath{\text{---}}\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\CL}{C.L.\xspace}}{\providecommand{\CL}{CL\xspace}}
+
+\cmsNoteHeader{TOP-17-004} 
+\title{A measurement of the top quark Yukawa coupling from $\ttbar$ differential cross sections in the lepton+jets final state in proton-proton collisions at $\sqrt{s}$ = 13\TeV}
+
+\address[rochester]{University of Rochester, NY, US}
+\author[rochester]{Regina Demina, Yi-Ting Duh, Mario Galanti, Aran Garcia-Bellido, Otto Hindrichs, Kin-Ho Lo, Mauro Verzetti}
+
+\date{\today}
+
+\abstract{
+    blah
+}
+
+\hypersetup{%
+pdfauthor={Regina Demina, Yi-Ting Duh, Aran Garcia-Bellido, Otto Hindrichs, Kin-Ho Lo},%
+pdftitle={Constraining the top quark Yukawa coupling from ttbar differential cross section in lepton+jets final state at 13 TeV},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, physics, top quark, top Yukawa coupling, differential cross section}}
+
+\maketitle 
+%\input{symbols}
+
+\section{Introduction} 
+\label{sec:intro} 
+ 
+\section{The CMS detector}
+\label{sec:detector}
+
+The central feature of the CMS detector is a superconducting solenoid 
+of 6\unit{m} internal diameter, providing a magnetic field of 3.8\unit{T}. Within 
+the solenoid volume are a silicon pixel and strip tracker, a lead 
+tungstate crystal electromagnetic calorimeter (ECAL), and a brass and 
+scintillator hadron calorimeter (HCAL), each composed of a barrel and 
+two endcap sections. Forward calorimeters extend the coverage provided 
+by the barrel and endcap detectors. Muons are measured in 
+gas--ionization detectors embedded in the steel flux--return yoke outside 
+the solenoid. A more detailed description of the CMS detector, together 
+with a definition of the coordinate system and relevant kinematical 
+variables, can be found in Ref.~\cite{Chatrchyan:2008aa}.
+
+The particle--flow (PF) algorithm~\cite{ref:particleflow} reconstructs 
+and identifies each individual particle with an optimized combination 
+of information from the various elements of the detector systems. The 
+energy of photons is directly obtained from the ECAL measurements, 
+corrected for zero--suppression effects. The energy of electrons is 
+determined from a combination of the electron momentum at the primary 
+interaction vertex as determined by the tracker, the energy of the 
+corresponding ECAL cluster, and the energy sum of all bremsstrahlung 
+photons spatially compatible with originating from the electron track. 
+The momentum of muons is obtained from the curvature of the 
+corresponding track, combining information from the silicon tracker and 
+the muon system. The energy of charged hadrons is determined from a 
+combination of their momentum measured in the tracker and the matching 
+ECAL and HCAL energy deposits, corrected for zero--suppression effects 
+and for the response function of the calorimeters to hadronic showers. 
+Finally, the energy of neutral hadrons is obtained from the 
+corresponding corrected ECAL and HCAL energy. The reconstructed vertex 
+with the largest value of summed physics--object $\pt^2$ is taken to be 
+the primary proton--proton (\Pp{}\Pp{}) interaction vertex. 
+
+\section{Data set and modeling}
+\label{sec:dataset}
+
+\section{Event reconstruction and selection}
+
+\section{Background estimation}
+
+\section{Event yields and control plots}
+
+\section{Statistical treatment}
+
+\section{Systematic uncertainties}
+
+\section{Results}
+
+\section{Summary}
+\begin{acknowledgments}
+\label{ack}
+
+We congratulate our colleagues in the CERN accelerator departments for the excellent performance of the LHC and thank the technical and administrative staffs at CERN and at other CMS institutes for their contributions to the success of the CMS effort. In addition, we gratefully acknowledge the computing centers and personnel of the Worldwide LHC Computing Grid for delivering so effectively the computing infrastructure essential to our analyses. Finally, we acknowledge the enduring support for the construction and operation of the LHC and the CMS detector provided by the following funding agencies: BMBWF and FWF (Austria); FNRS and FWO (Belgium); CNPq, CAPES, FAPERJ, FAPERGS, and FAPESP (Brazil); MES (Bulgaria); CERN; CAS, MoST, and NSFC (China); COLCIENCIAS (Colombia); MSES and CSF (Croatia); RPF (Cyprus); SENESCYT (Ecuador); MoER, ERC IUT, PUT and ERDF (Estonia); Academy of Finland, MEC, and HIP (Finland); CEA and CNRS/IN2P3 (France); BMBF, DFG, and HGF (Germany); GSRT (Greece); NKFIA (Hungary); DAE and DST (India); IPM (Iran); SFI (Ireland); INFN (Italy); MSIP and NRF (Republic of Korea); MES (Latvia); LAS (Lithuania); MOE and UM (Malaysia); BUAP, CINVESTAV, CONACYT, LNS, SEP, and UASLP-FAI (Mexico); MOS (Montenegro); MBIE (New Zealand); PAEC (Pakistan); MSHE and NSC (Poland); FCT (Portugal); JINR (Dubna); MON, RosAtom, RAS, RFBR, and NRC KI (Russia); MESTD (Serbia); SEIDI, CPAN, PCTI, and FEDER (Spain); MOSTR (Sri Lanka); Swiss Funding Agencies (Switzerland); MST (Taipei); ThEPCenter, IPST, STAR, and NSTDA (Thailand); TUBITAK and TAEK (Turkey); NASU and SFFR (Ukraine); STFC (United Kingdom); DOE and NSF (USA).
+
+\hyphenation{Rachada-pisek} Individuals have received support from the Marie-Curie program and the European Research Council and Horizon 2020 Grant, contract Nos.\ 675440 and 765710 (European Union); the Leventis Foundation; the A.P.\ Sloan Foundation; the Alexander von Humboldt Foundation; the Belgian Federal Science Policy Office; the Fonds pour la Formation \`a la Recherche dans l'Industrie et dans l'Agriculture (FRIA-Belgium); the Agentschap voor Innovatie door Wetenschap en Technologie (IWT-Belgium); the F.R.S.-FNRS and FWO (Belgium) under the ``Excellence of Science -- EOS" -- be.h project n.\ 30820817; the Beijing Municipal Science \& Technology Commission, No. Z181100004218003; the Ministry of Education, Youth and Sports (MEYS) of the Czech Republic; the Lend\"ulet (``Momentum") Program and the J\'anos Bolyai Research Scholarship of the Hungarian Academy of Sciences, the New National Excellence Program \'UNKP, the NKFIA research grants 123842, 123959, 124845, 124850, 125105, 128713, 128786, and 129058 (Hungary); the Council of Science and Industrial Research, India; the HOMING PLUS program of the Foundation for Polish Science, cofinanced from European Union, Regional Development Fund, the Mobility Plus program of the Ministry of Science and Higher Education, the National Science Center (Poland), contracts Harmonia 2014/14/M/ST2/00428, Opus 2014/13/B/ST2/02543, 2014/15/B/ST2/03998, and 2015/19/B/ST2/02861, Sonata-bis 2012/07/E/ST2/01406; the National Priorities Research Program by Qatar National Research Fund; the Programa Estatal de Fomento de la Investigaci{\'o}n Cient{\'i}fica y T{\'e}cnica de Excelencia Mar\'{\i}a de Maeztu, grant MDM-2015-0509 and the Programa Severo Ochoa del Principado de Asturias; the Thalis and Aristeia programs cofinanced by EU-ESF and the Greek NSRF; the Rachadapisek Sompot Fund for Postdoctoral Fellowship, Chulalongkorn University and the Chulalongkorn Academic into Its 2nd Century Project Advancement Project (Thailand); the Welch Foundation, contract C-1845; and the Weston Havens Foundation (USA).
+\end{acknowledgments}
+
+\bibliography{auto_generated}   % will be created by the tdr script.
